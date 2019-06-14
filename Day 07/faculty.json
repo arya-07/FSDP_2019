@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun 11 10:39:59 2019
+
+@author: Hp
+"""
+
+#Faculty json
+import json
+
+faculty_json ="""
+[
+   {
+    	"First_name": "Arya",
+    	"Last_name": "Sinha",
+    	"Photo": "https://www.google.co.in/search?q=madhuri+dixit&tbm=isch&source=iu&ictx=1&fir=4TunlunVieUnnM%253A%252ChvLzaNgkf2LT3M%252C%252Fm%252F01wttr1&vet=1&usg=AI4_-kS9KdonsBcFGdTz6KEfqxT9iB9oGA&sa=X&ved=2ahUKEwjwhIPK1eDiAhVB6nMBHXzJAqsQ_B0wI3oECAQQAw#",
+    	"Department": "Computer Engineering",
+    	"Research_areas": ["Artificial Intelligence", "Database Management System"],
+    	"Contact_details":
+    	 {
+    		"Phone_no": ["7979934837", "8102602913"],
+    		"Email": "aryasinha285@gamil.com"
+    	}
+    }
+    {
+        "First_name": "Tanya",
+    	"Last_name": "Harshika",
+    	"Photo": "https://www.google.co.in/search?q=madhuri+dixit&tbm=isch&source=iu&ictx=1&fir=4TunlunVieUnnM%253A%252ChvLzaNgkf2LT3M%252C%252Fm%252F01wttr1&vet=1&usg=AI4_-kS9KdonsBcFGdTz6KEfqxT9iB9oGA&sa=X&ved=2ahUKEwjwhIPK1eDiAhVB6nMBHXzJAqsQ_B0wI3oECAQQAw#",
+    	"Department": "Medical",
+    	"Research_areas": ["Brain Science", "BMT"],
+    	"Contact_details":
+    	 {
+    		"Phone_no": ["7979934837", "8102602913"],
+    		"Email": "tanyaharshika19@gamil.com"
+    	}
+    }
+]
+       
